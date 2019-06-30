@@ -6,9 +6,9 @@
  * ie. the time difference between two patterns
  *
  * @see Animation speed in individual pattern description
- * Ideal value: 0 - 500.
+ * Ideal value: 0 - 500 (milliseconds).
  */
-const unsigned long pattern_difference_duration = 500;
+const unsigned long pattern_difference_duration = 0;
 
 /**
  * *********************************************

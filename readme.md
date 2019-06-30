@@ -1,7 +1,6 @@
 # Shift 8
 
-8-bit Shift Register LED animation for a light show.
-
+8-bit Shift Register LED animation for a light show; like Christmas.
 
 
 ## Circuit Diagram
@@ -19,21 +18,29 @@
      QH 7      10  Serial Clear - High
     GND 8      09  QH' Data Out - to pin 14 of second shift register, or floating
 
+Shift Register - [Data Sheet](http://www.ti.com/lit/ds/symlink/sn74hc595.pdf) - PDF
 
-## Setup
+QA - QH: with 470 Ohm resistor to LED, or to Relay Module.
 
-See: [setup.h](shift8/setup.h)
+
+## setup.h
+
+See: [setup.h](shift8/setup.h) to configure Arduino Pins.
 
 
 ## Pattern video
 
+Play [video](#).
 
-## Pattern data suppliers
+
+## Pattern suppliers
+
+Visually design the animation frames per pattern.
 
   - See [pattern.h](shift8/pattern.h)
-  - See [pattern.cpp](shift8/pattern.cpp)
+  - See [pattern.cpp](shift8/pattern.cpp) - list of available animation patterns
 
 
 ## Animation
 
-See [animate()](shift8/animate.cpp) function
+See [animate()](shift8/animate.cpp) function.

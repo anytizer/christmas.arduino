@@ -1,14 +1,15 @@
 #include "pattern.h"
 
 /**
+ * Functions that appear here must have been defined in pattern.h
+ * 
  * Visually design the animation patterns
- * {animation speed, number of repeats, {animation frames}}
+ * Data format: {animation speed, number of repeats, {animation frames[]}}
  *
- * @todo Remove all the patterns with zero repeats
  * @todo Get rid of: Frame size to be equal to number of relays
  * 
  * Notes:
- * First bit in the frame is shifted in first.
+ * First/Left bit in the frame will be shifted in first.
  */
 
 /**

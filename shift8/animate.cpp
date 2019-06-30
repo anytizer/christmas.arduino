@@ -5,32 +5,26 @@
 void animate()
 {
   pattern patterns[] = {
-    pattern_blinker(150, 3),
+    pattern_blinker(150, 2),
 
-    // rain drop effect when all sliders combined together
+    // rain drop effect (when all sliders combined together)
     pattern_slider1(100, 1),
     pattern_slider2(100, 1),
     pattern_slider3(100, 1),
     pattern_slider4(100, 1),
     
     pattern_tearup(100, 3),
-    pattern_opener(150, 3),
+    pattern_opener(300, 3),
     
-    pattern_spring1(150, 2),
-    pattern_spring2(150, 2),
+    pattern_spring1(300, 2),
+    pattern_spring2(100, 2),
     
     pattern_double_runner(150, 4),
 
-    // one LED at a time (Walking effect)
-    pattern_run_left_right(300, 1),
-    pattern_run_right_left(300, 1),
-    pattern_run_left_right(300, 1),
-    pattern_run_right_left(300, 1),
-
-    // one LED at a time (Running effect)
-    pattern_run_left_right(80, 1),
-    pattern_run_right_left(80, 1),
-    pattern_run_left_right(80, 1),
+    // one LED at a time (Walking and Running effect)
+    pattern_run_left_right(350, 1),
+    pattern_run_right_left(350, 1),
+    pattern_run_left_right(90, 1),
     pattern_run_right_left(80, 1),
     
     pattern_collision(150, 2),
