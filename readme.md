@@ -1,12 +1,13 @@
-#Shift 8
+# Shift 8
 
-Animate 8 LEDs using a shift register.
-
-
-## Circuit Diagram:
+8-bit Shift Register LED animation for a light show.
 
 
-## 74HC595N
+
+## Circuit Diagram
+
+
+## 74HC595N Connection
 
             *
      QB 1      16  VCC
