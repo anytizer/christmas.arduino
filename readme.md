@@ -21,7 +21,7 @@ Animate 8 LEDs using a shift register.
 
 ## Setup
 
-See: [setup.h](setup.h)
+See: [setup.h](shift8/setup.h)
 
 
 ## Pattern video
@@ -29,10 +29,10 @@ See: [setup.h](setup.h)
 
 ## Pattern data suppliers
 
-  - See [pattern.h](pattern.h)
-  - See [pattern.cpp](pattern.cpp)
+  - See [pattern.h](shift8/pattern.h)
+  - See [pattern.cpp](shift8/pattern.cpp)
 
 
 ## Animation
 
-See [animate()](animate.cpp) function
+See [animate()](shift8/animate.cpp) function
